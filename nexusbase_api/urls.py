@@ -4,6 +4,7 @@ from . import views
 
 router = routers.DefaultRouter()
 router.register(r'cards', views.CardViewSet)
+router.register(r'collections', views.CollectionViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),
