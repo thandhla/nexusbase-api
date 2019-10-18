@@ -1,7 +1,3 @@
 # NexusBase
 
-Data management app
-
-# Tech stack
-- Django
-- React
+Django api for Nexusbase. A data management app
