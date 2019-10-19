@@ -1,5 +1,5 @@
 from django.http import HttpResponse
-from nexusbase_api.serializers import CardSerializer
+from api.serializers import CardSerializer
 
 def test_view(request):
     card = CardSerializer(data={

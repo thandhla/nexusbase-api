@@ -21,5 +21,5 @@ from .experiments import test_view
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('test/', test_view),
-    path('api/', include('nexusbase_api.urls')),
+    path('api/', include('api.urls')),
 ]

@@ -8,7 +8,7 @@ class CollectionSerializer(serializers.ModelSerializer):
         fields = '__all__'
 
 class CardSerializer(serializers.ModelSerializer):
-    attributes = serializers.JSONField()
+    fields = serializers.JSONField()
     collection = serializers.PrimaryKeyRelatedField(queryset=Collection.objects.all())
 
     """

@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     # Third party
     'rest_framework',
     # Own
-    'nexusbase_api.apps.NexusbaseApiConfig',
+    'api.apps.ApiConfig',
 ]
 
 MIDDLEWARE = [
