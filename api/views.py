@@ -1,7 +1,11 @@
 from rest_framework import viewsets
 from rest_framework.response import Response
-from .serializers import CollectionSerializer, CardSerializer
-from .models import Collection, Card
+from .serializers import WorkspaceSerializer, CollectionSerializer, CardSerializer
+from .models import Workspace, Collection, Card
+
+class WorkspaceViewSet(viewsets.ModelViewSet):
+    queryset = Workspace.objects.all()
+    serializer_class = WorkspaceSerializer
 
 class CollectionViewSet(viewsets.ModelViewSet):
     queryset = Collection.objects.all()

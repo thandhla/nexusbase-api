@@ -1,6 +1,11 @@
 import json
 from rest_framework import serializers
-from .models import Collection, Card
+from .models import Workspace, Collection, Card
+
+class WorkspaceSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Workspace
+        fields = '__all__'
 
 class CollectionSerializer(serializers.ModelSerializer):
     class Meta:
