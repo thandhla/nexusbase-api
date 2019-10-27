@@ -1,0 +1,20 @@
+[
+  {
+    "id": "field_1",
+    "name": "Firstname",
+    "type": "line",
+    "options": {}
+  },
+  {
+    "id": "field_2",
+    "name": "Lastname",
+    "type": "line",
+    "options": {}
+  },
+  {
+    "id": "field_3",
+    "label": "Email",
+    "type": "email",
+    "options": {}
+  }
+]

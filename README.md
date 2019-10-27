@@ -1,4 +1,7 @@
 # NexusBase
 
-# Overview
 Data management app
+
+# Tech stack
+- Django
+- React
